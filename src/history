@@ -1,0 +1,5 @@
+cd ~/tree/src 
+erlc t.erl
+erl +P 1000000 -pa /Users/cadar/eper/src
+l(redbug).
+t:start().
